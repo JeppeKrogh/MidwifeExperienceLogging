@@ -1,0 +1,8 @@
+{
+  "name": "midwifeexperiencelogging",
+  "app_id": "589280ad",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
