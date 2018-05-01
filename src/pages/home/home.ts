@@ -6,12 +6,14 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  todoText: string = "no item added yet";
   allowNewItem: boolean = true;
-
+  todoOutput: string;
+  vesthest: string;
+  
   addButtonClicked() {
-    this.todoText += "added an item";
+    this.todoOutput = this.vesthest;
   }
+
 
   constructor(public navCtrl: NavController) {
 
